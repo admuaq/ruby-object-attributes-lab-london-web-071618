@@ -4,4 +4,15 @@ class Person
     @name = name_of_person
   end 
   
+  def name
+    @name
+  end
+  
+  def job=(person_job)
+    @job = person_job
+  end 
+  
+  def job
+    @job 
+  end 
 end 
